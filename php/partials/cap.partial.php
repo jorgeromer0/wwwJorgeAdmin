@@ -6,7 +6,6 @@ if (basename($_SERVER['PHP_SELF']) == 'index.php') {
     $data = explode("php", $url);
     $index = $data[0];
     $css = "recursos/css/estils.css";
-    
 }
 ?>
 

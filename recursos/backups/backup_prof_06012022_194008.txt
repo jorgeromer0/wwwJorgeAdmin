@@ -1,0 +1,7 @@
+16::admin::admin::$2y$10$YkAeQ4rn1L8GhP6fAoB3Z.paJfLUvr8wAVP2y1794Qx82mAf4sXFi::admin@admin.com::admin::ADMIN::2021-12-31 14:36:57
+17::administrador::administrador::$2y$10$o4/al26BAzR9wKqz9JwWu.pgOv8VHkGlaad39kaP8vyEcC5teTDIS::administrador@administrador.com::administrador::ADMIN::2021-12-31 14:37:33
+18::raul::valls::$2y$10$WvgVUAYS.QbfYQgKpUK/OO4izku/CFBV5mc9oJVqYUG5pX2Sj2cdm::raulv@gmail.com::xativa::PROFESSOR::2022-01-03 10:37:33
+19:: jose:: castillo castillo::$2y$10$ktjh6Y19gQ2WiZNdi.TWU.Z2ne36TXaaI2lSQNXrIjxvCwWmBO2me::josec@gmail.com:: xativa::PROFESSOR::2022-01-03 10:38:17
+20::ignacio::paches::$2y$10$SJmJ3IrhvQAbDukjvbwBveOiN81ferq9lzSaMbbHVpSWOhtEpNK/6::ignacio@gmail.com::xativa::PROFESSOR::2022-01-03 10:41:09
+22::rosana::terol::$2y$10$LisicINuhFaD9saBQFKezedp0DFpCILngpiojdEhk4VXbxtv2clIa::rosat@gmail.com::xativa::PROFESSOR::2022-01-04 11:25:36
+23::begonya::bonastre::$2y$10$Olay8kI19QQqw.FXisxUWO9tPZ2gW/4Dd2l9eGvkXTmHqLbc8ZQo2::bego@gmail.com::xativa::PROFESSOR::2022-01-04 18:13:19

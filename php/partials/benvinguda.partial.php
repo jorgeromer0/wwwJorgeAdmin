@@ -1,13 +1,14 @@
 
 <?php
 
+
 if (basename($_SERVER['PHP_SELF']) == 'index.php') {
     $url = "./php/desconnecta.php";
 } else {
     $url = $_SERVER['PHP_SELF'];
     $data = explode("php", $url);
     $index = $data[0];
-    $url = "./desconnecta.php";
+    $url = "http://" . $_SERVER['SERVER_NAME'] . ":8080/php/desconnecta.php";
 }
 
 if (!isset($_SESSION)) {

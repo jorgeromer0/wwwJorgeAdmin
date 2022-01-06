@@ -11,7 +11,7 @@
 echo "<main id='contingut'>";
 echo "<h4 class='text-center'>Log  {$_SESSION['usuario']} </h4>";
 $patron = "/" . $_SESSION['usuario'] . "/";
-$ficher = fopen("../recursos/log/usuaris.log", "r");
+$ficher = fopen("recursos/log/admin.log", "r");
 while (!feof($ficher)) {
     $linea = fgets($ficher);
     if (preg_match($patron, $linea)) {
