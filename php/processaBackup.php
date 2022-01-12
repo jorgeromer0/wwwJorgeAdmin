@@ -16,11 +16,11 @@ if (mysqli_connect_errno()) {
 
 
 
-$sql_query = "SELECT idprof, nom, cognom, email,contrasenya, poblacio,rol,data FROM professorat";
+$sql_query = "SELECT idprof, nom, cognom, email,contrasenya, poblacio,rol,data,imatgeperfil FROM professorat";
 $resultset = mysqli_query($connexio, $sql_query) or die("error base de datos:" . mysqli_error($conn));
 while ($usuario = mysqli_fetch_assoc($resultset)) {
 
-    $linia = $usuario['idprof'] . "::" . $usuario['nom'] . "::" . $usuario['cognom'] . "::" . $usuario['contrasenya'] . "::" .  $usuario['email'] . "::" . $usuario['poblacio'] . "::" . $usuario['rol'] . "::" . $usuario['data'];
+    $linia = $usuario['idprof'] . "::" . $usuario['nom'] . "::" . $usuario['cognom'] . "::" . $usuario['contrasenya'] . "::" .  $usuario['email'] . "::" . $usuario['poblacio'] . "::" . $usuario['rol'] . "::" . $usuario['data'] . "::" . $usuario['imatgeperfil'];
 
     $fecha = date('dmY');
     $hora = date('His');
@@ -29,11 +29,11 @@ while ($usuario = mysqli_fetch_assoc($resultset)) {
 }
 fclose($fichero);
 
-$sql_query = "SELECT idalum, nom, cognom, email,contrasenya, poblacio,rol,data FROM alumnat";
+$sql_query = "SELECT idalum, nom, cognom, email,contrasenya, poblacio,rol,data,imatgeperfil FROM alumnat";
 $resultset = mysqli_query($connexio, $sql_query) or die("error base de datos:" . mysqli_error($conn));
 while ($usuario = mysqli_fetch_assoc($resultset)) {
 
-    $linia = $usuario['idalum'] . "::" . $usuario['nom'] . "::" . $usuario['cognom'] . "::" . $usuario['contrasenya'] . "::" .  $usuario['email'] . "::" . $usuario['poblacio'] . "::" . $usuario['rol'] . "::" . $usuario['data'];
+    $linia = $usuario['idalum'] . "::" . $usuario['nom'] . "::" . $usuario['cognom'] . "::" . $usuario['contrasenya'] . "::" .  $usuario['email'] . "::" . $usuario['poblacio'] . "::" . $usuario['rol'] . "::" . $usuario['data'] . "::" . $usuario['imatgeperfil'];
 
     $fecha = date('dmY');
     $hora = date('His');

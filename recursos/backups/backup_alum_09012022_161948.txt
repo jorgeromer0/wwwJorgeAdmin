@@ -1,0 +1,10 @@
+35::    jorge::    romero garrido::$2y$10$XOQ8unlGTLlg.5GLBYmI6.OcwzqW/BE3ZRADJJLKR4RwtE8lPIoIG::jorgerom@hotmail.es::    ontinyent::ALUMNAT::2021-12-05 17:07:56::imatgedefecte.png
+44::  alicia:: climent::$2y$10$vy/eTpMPOXGgU7h9FrQ9MOBjYUSpvpbOyaRlC04mDFdff2HoaIJny::alicia@gmail.com::  ontinyent::ALUMNAT::2021-12-09 16:40:14::imatgedefecte.png
+51::carmen::sanchis::$2y$10$fM6B7PZm7ReJpeDSoB0LyOc47qJSz9Ur1w0jmd0GV8Xv3HENPBlVW::carmens@gmail.com::onti::ALUMNAT::2021-12-28 21:49:24::imatgedefecte.png
+52::Tono::     mullor vidal::$2y$10$QMAk3ZukUwKFOPJ.xHiwu.QX9cbuLidFKSp0HtGGfF6fHxGLQcr8u::tonos@gmail.com:: ontinyent::ALUMNAT::2021-12-29 11:26:14::imatgedefecte.png
+57:: ALEJANDRO::  PORTALÉS CERVERÓ::$2y$10$3gCdIy.0.bc7jCTX.IT/zu2CUmnCGggiDP0uTf7jPQFESZVs3DLSa::alejandrop@gmail.com:: Onti::ALUMNAT::2022-01-06 16:11:12::imatgedefecte.png
+59::ivan::oviedo::$2y$10$lhkwKSJb06zk.fV5najGU.63KSmRx1fiKfqHL6Y24qVhriVJ8Z9r6::ivano@gmail.com::xativa::ALUMNAT::2022-01-07 20:58:23::imatgedefecte.png
+67::  maribel::  gar::$2y$10$NPMKdGi.x12LOFClvfAPH.QeEk.hiXLmLQPjN6TdwgL6nKmkoJAUi::maribel@gmail.com::  onti::ALUMNAT::2022-01-07 21:41:26::maribel@gmail.com.png
+69:: aitana:: ocaña::$2y$10$if1Vr/1Wn/c0mR6e1h5lGud21mEnxlHdsGOtEAC2uuukKwWWk5hNC::aitanao@gmail.com:: barcelona::ALUMNAT::2022-01-08 10:10:53::imatgedefecte.png
+70:: ana:: guerra::$2y$10$PnFQYevn2zFvVXbCBknHeOMySQCGrMYensYN0YspK6liLORA5evca::anag@gmail.com:: barcelona::ALUMNAT::2022-01-08 10:30:25::anag@gmail.com.png
+71::   miki::   nadal::$2y$10$cSW4mDYnLJxU22NIck6JAOGVHKNv2UIruwP3yt.1pC0BqGREoHNaa::miki@gmail.com::   madrid::ALUMNAT::2022-01-08 10:37:05::imatgedefecte.png

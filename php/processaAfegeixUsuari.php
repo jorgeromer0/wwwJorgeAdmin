@@ -1,5 +1,6 @@
 <?php
 
+session_start();
 
 $nom = $_POST['nom'];
 $cognom = $_POST['cognom'];
@@ -13,6 +14,19 @@ $servidor = "192.168.1.52";
 $usuari = "projectes_jorge";
 $contrasenyabs = "projectes_jorge";
 $base_dades = "projectes_jorge";
+
+include("../entity/dadesFormulari.php");
+$dades = new DadesFormulari($nom , $cognom, $poblacio ,$email,$contrasenya,$tipus);
+$_SESSION['dadesformulari']= serialize($dades);
+$dadessesio =  unserialize($_SESSION['dadesformulari']);
+
+$_SESSION['nomguarda'] = $dadessesio->getNom();
+$_SESSION['cognomguarda'] = $dadessesio->getCognom();
+$_SESSION['poblacioguarda'] = $dadessesio->getPoblacio();
+$_SESSION['emailguarda'] = $dadessesio->getEmail();
+$_SESSION['contrasenyaguarda'] = $dadessesio->getContrasenya();
+
+
 
 
 

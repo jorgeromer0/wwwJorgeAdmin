@@ -29,12 +29,13 @@ if (mysqli_connect_errno()) {
                 <th>Poblacio</th>
                 <th>Rol</th>
                 <th>Data creació</th>
+                <th>Imatge</th>
                 <th>Accions</th>
             </tr>
         </thead>
         <tbody>
             <?php
-            $sql_query = "SELECT idprof, nom, cognom, email, poblacio,rol,data FROM professorat";
+            $sql_query = "SELECT idprof, nom, cognom, email, poblacio,rol,data, imatgeperfil FROM professorat";
             $resultset = mysqli_query($connexio, $sql_query) or die("error base de datos:" . mysqli_error($conn));
             while ($usuario = mysqli_fetch_assoc($resultset)) {
             ?>
@@ -46,6 +47,22 @@ if (mysqli_connect_errno()) {
                     <td><?php echo $usuario['poblacio']; ?></td>
                     <td><?php echo $usuario['rol']; ?></td>
                     <td><?php echo $usuario['data']; ?></td>
+
+                    <td>
+                        <?php
+
+                        $imagen = $usuario['imatgeperfil'];
+            
+                        if ($imagen != "imatgedefecte.png") {
+                            echo "<img src='http://localhost:8080/recursos/img/imatgesperfil/alumnat/$imagen'  width='40'>";
+                        }
+
+                        if ($imagen == "imatgedefecte.png") {
+                            echo "<img src='http://localhost:8080/recursos/img/imatgesperfil/$imagen'  width='40'>";
+                        }
+
+                        ?>
+                    </td>
                     <?php if ($usuario['rol'] != 'ADMIN') : ?>
 
                         <td><a class="btn btn-danger" href="../php/eliminaProfessorat.php?id=<?php echo $usuario['idprof']; ?>" onclick='return confirm("Realment vols eliminar l usuari amb id <?php echo $usuario['idprof']; ?> ");'> 🗑️ Borrar</a>
@@ -58,7 +75,7 @@ if (mysqli_connect_errno()) {
                 </tr>
             <?php } ?>
             <?php
-            $sql_query = "SELECT idalum, nom, cognom, email, poblacio,rol,data FROM alumnat";
+            $sql_query = "SELECT idalum, nom, cognom, email, poblacio,rol,data ,imatgeperfil FROM alumnat";
             $resultset = mysqli_query($connexio, $sql_query) or die("error base de datos:" . mysqli_error($conn));
             while ($usuario = mysqli_fetch_assoc($resultset)) {
             ?>
@@ -70,6 +87,21 @@ if (mysqli_connect_errno()) {
                     <td><?php echo $usuario['poblacio']; ?></td>
                     <td><?php echo $usuario['rol']; ?></td>
                     <td><?php echo $usuario['data']; ?></td>
+                    <td>
+                        <?php
+
+                        $imagen = $usuario['imatgeperfil'];
+
+                        if ($imagen != "imatgedefecte.png") {
+                            echo "<img src='http://localhost:8080/recursos/img/imatgesperfil/alumnat/$imagen'  width='40'>";
+                        }
+
+                        if ($imagen == "imatgedefecte.png") {
+                            echo "<img src='http://localhost:8080//recursos/img/imatgesperfil/$imagen'  width='40'>";
+                        }
+
+                        ?>
+                    </td>
                     <td><a class="btn btn-danger" href="../php/eliminaAlumnat.php?id=<?php echo $usuario['idalum']; ?>" onclick='return confirm("Realment vols eliminar l usuari amb id <?php echo $usuario['idalum']; ?> ");'> 🗑️ Borrar</a>
                         <a class="btn btn-warning" href="admin.php?edita=true&id=<?php echo $usuario['idalum']; ?>&rol=<?php echo $usuario['rol']; ?>"> ✏️ Modifica</a>
                     </td>

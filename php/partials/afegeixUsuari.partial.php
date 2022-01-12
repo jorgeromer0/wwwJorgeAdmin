@@ -3,22 +3,60 @@
     <div class="container px-5 my-5">
         <form id="contactForm" action="./php/processaAfegeixUsuari.php" method="POST">
             <div class="form-floating mb-3">
-                <input class="form-control" id="nom" type="text" placeholder="Nom" name="nom" required />
+                <input class="form-control" id="nom" type="text" placeholder="Nom" name="nom" required  value="<?php 
+                    ;   
+                
+                      if (isset($_SESSION['nomguarda'])) {
+                    echo $_SESSION['nomguarda'];
+                    
+                        }
+                        unset ( $_SESSION['nomguarda'] );
+
+                        ?>"/>
+
                 <label for="nom">Nom</label>
 
             </div>
             <div class="form-floating mb-3">
-                <input class="form-control" id="cognom" type="text" placeholder="Cognom" name="cognom" required />
+                <input class="form-control" id="cognom" type="text" placeholder="Cognom" name="cognom" required value="<?php 
+                    ;   
+                
+                      if (isset($_SESSION['cognomguarda'])) {
+                    echo $_SESSION['cognomguarda'];
+                    
+                        }
+                        unset ( $_SESSION['cognomguarda'] );
+
+                        ?>"/>
+
                 <label for="cognom">Cognom</label>
 
             </div>
             <div class="form-floating mb-3">
-                <input class="form-control" id="poblacio" type="text" placeholder="Poblacio" name="poblacio" required />
-                <label for="poblacio">Poblacio</label>
+                <input class="form-control" id="poblacio" type="text" placeholder="Poblacio" name="poblacio" required value="<?php 
+                    ;   
+                
+                      if (isset($_SESSION['poblacioguarda'])) {
+                    echo $_SESSION['poblacioguarda'];
+                    
+                        }
+                        unset ( $_SESSION['poblacioguarda'] );
+
+                        ?>"/>
+                            <label for="email">Poblacio</label> 
 
             </div>
             <div class="form-floating mb-3">
-                <input class="form-control" id="email" type="email" placeholder="Email " name="email" required />
+                <input class="form-control" id="email" type="email" placeholder="Email " name="email" required value="<?php 
+                    ;   
+                
+                      if (isset($_SESSION['emailguarda'])) {
+                    echo $_SESSION['emailguarda'];
+                    
+                        }
+                        unset ( $_SESSION['emailguarda'] );
+
+                        ?>"/>
                 <label for="email">Email </label>
 
             </div>
@@ -39,12 +77,30 @@
 
             ?>
             <div class="form-floating mb-3">
-                <input class="form-control" id="contrasenya" type="password"" placeholder=" Contrasenya" name="contrasenya1" minlength="6" required />
+                <input class="form-control" id="contrasenya" type="password"" placeholder=" Contrasenya" name="contrasenya1" minlength="6" required value="<?php 
+                    ;   
+                
+                      if (isset($_SESSION['contrasenyaguarda'])) {
+                    echo $_SESSION['contrasenyaguarda'];
+                    
+                        }
+                        unset ( $_SESSION['contrasenyaguarda'] );
+
+                        ?>"/>
                 <label for="contrasenya">Contrasenya</label>
 
             </div>
             <div class="form-floating mb-3">
-                <input class="form-control" id="confirmaCotrasena" type="password" placeholder="Confirma contraseña" name="contrasenya2" minlength="6" required />
+                <input class="form-control" id="confirmaCotrasena" type="password" placeholder="Confirma contraseña" name="contrasenya2" minlength="6" required value="<?php 
+                    ;   
+                
+                      if (isset($_SESSION['contrasenyaguarda'])) {
+                    echo $_SESSION['contrasenyaguarda'];
+                    
+                        }
+                        unset ( $_SESSION['contrasenyaguarda'] );
+
+                        ?>"/>
                 <label for="confirmaCotrasena">Confirma contraseña</label>
             </div>
             <?php

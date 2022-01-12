@@ -1,0 +1,11 @@
+16::admin::admin::$2y$10$YkAeQ4rn1L8GhP6fAoB3Z.paJfLUvr8wAVP2y1794Qx82mAf4sXFi::admin@admin.com::admin::ADMIN::2021-12-31 14:36:57::imatgedefecte.png
+17::administrador::administrador::$2y$10$o4/al26BAzR9wKqz9JwWu.pgOv8VHkGlaad39kaP8vyEcC5teTDIS::administrador@administrador.com::administrador::ADMIN::2021-12-31 14:37:33::imatgedefecte.png
+18::raul::valls::$2y$10$WvgVUAYS.QbfYQgKpUK/OO4izku/CFBV5mc9oJVqYUG5pX2Sj2cdm::raulv@gmail.com::xativa::PROFESSOR::2022-01-03 10:37:33::imatgedefecte.png
+19:: jose:: castillo castillo::$2y$10$ktjh6Y19gQ2WiZNdi.TWU.Z2ne36TXaaI2lSQNXrIjxvCwWmBO2me::josec@gmail.com:: xativa::PROFESSOR::2022-01-03 10:38:17::imatgedefecte.png
+20::ignacio::paches::$2y$10$SJmJ3IrhvQAbDukjvbwBveOiN81ferq9lzSaMbbHVpSWOhtEpNK/6::ignacio@gmail.com::xativa::PROFESSOR::2022-01-03 10:41:09::imatgedefecte.png
+22::rosana::terol::$2y$10$LisicINuhFaD9saBQFKezedp0DFpCILngpiojdEhk4VXbxtv2clIa::rosat@gmail.com::xativa::PROFESSOR::2022-01-04 11:25:36::imatgedefecte.png
+23::begonya::bonastre::$2y$10$Olay8kI19QQqw.FXisxUWO9tPZ2gW/4Dd2l9eGvkXTmHqLbc8ZQo2::bego@gmail.com::xativa::PROFESSOR::2022-01-04 18:13:19::imatgedefecte.png
+24::juan::gar::$2y$10$m.xJbB0yx.2sazZrRfjFVO0vLj0wG0Euzgmz8og8Bc9a0x6ZCNm82::juanga@gmail.com::onti::PROFESSOR::2022-01-07 21:45:26::juanga@gmail.com.png
+25::   rosalia::   vila::$2y$10$Vu.qRLLZTh7ELy4lrgy7mef7gCMA7CcWJw1HL2XHqtVyjjA1bitkC::rosalia@gmail.com::   barcelona::PROFESSOR::2022-01-08 10:11:57::rosalia@gmail.com.jpg
+26::        monica::        c::$2y$10$p9mFuNB/Ncc6gBpMBOI6T.QlMKTi3grGhyDhvd.U/itwg.X.i9ic6::monica@gmail.com::        madrid::PROFESSOR::2022-01-08 10:42:50::monica@gmail.com.png
+27::JOSEP ::GARZÓ SÁNCHEZ::$2y$10$BGuJJNgf845jUTHaKkVxU.jUFX/jsYHQmiuYzngfZc73EXj52KbIC::josepg@gmail.com::xativa::PROFESSOR::2022-01-08 10:53:16::imatgedefecte.png
