@@ -2,7 +2,7 @@
 
 
 
-$servidor = "192.168.1.52";
+$servidor = "localhost";
 $usuario = "projectes_jorge";
 $contrasenyabs = "projectes_jorge";
 $base_dades = "projectes_jorge";

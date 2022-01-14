@@ -1,4 +1,13 @@
 <?php
+
+ini_set('display_errors', 1);
+
+ini_set('display_startup_errors', 1);
+
+error_reporting(E_ALL);
+
+?>
+<?php
 session_start();
 
 
@@ -6,7 +15,7 @@ $usuari = $_POST['usuari'];
 $password = $_POST['password'];
 $tipus = "ADMIN";
 
-$servidor = "192.168.1.52";
+$servidor = "localhost";
 $usuario = "projectes_jorge";
 $contrasenyabs = "projectes_jorge";
 $base_dades = "projectes_jorge";
@@ -50,15 +59,18 @@ if ($count == 1) {
         // $html = 'usuariRegistrat.php';
         // $url = "http://$host/php/$html";
         // echo $url;
-         include  $_SERVER['DOCUMENT_ROOT'].'/php/escriuLogAdmin.php';
+        include  'escriuLogAdmin.php';
+
+        echo "hola document";
 
 
+        include_once 'escriuLogAdmin.php';
+        registraAccio($_SESSION['usuario'], "Login",  date('d-m-Y'),   date('H:i:s'));
 
-        registraAccio( $_SESSION['usuario'],"Login",  date('d-m-Y'),   date('H:i:s'));
 
         // header('Location: usuariRegistrat.php');
 
-        return header("Location: ../admin.php?visualitza=true");
+        header("Location: ../admin.php?visualitza=true");
     } else {
         // $host = $_SERVER['HTTP_HOST'];
         // $ruta = rtrim(dirname($_SERVER['PHP_SELF']), '/\\');

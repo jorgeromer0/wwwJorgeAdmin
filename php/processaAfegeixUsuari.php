@@ -1,5 +1,15 @@
 <?php
 
+ini_set('display_errors', 1);
+
+ini_set('display_startup_errors', 1);
+
+error_reporting(E_ALL);
+
+?>
+
+<?php
+
 session_start();
 
 $nom = $_POST['nom'];
@@ -10,7 +20,7 @@ $contrasenya = $_POST['contrasenya1'];
 $contrasenya2 = $_POST['contrasenya2'];
 $tipus = $_POST['tipus'];
 
-$servidor = "192.168.1.52";
+$servidor = "localhost";
 $usuari = "projectes_jorge";
 $contrasenyabs = "projectes_jorge";
 $base_dades = "projectes_jorge";
@@ -85,8 +95,9 @@ if ($tipus == "Alumnat") {
 
         header("Location:  ../../admin.php?afegir=true&error=alumne");
     } else {
-        $sql = "INSERT INTO alumnat (nom,cognom,email,poblacio, contrasenya,rol,data) VALUES ('$nom','$cognom','$email' ,'$poblacio','$hashed_password','ALUMNAT',now())";
-        session_start();
+        $archivo = "imatgedefecte.png";
+        $sql = "INSERT INTO alumnat (nom,cognom,email,poblacio, contrasenya,rol,data,imatgeperfil) VALUES ('$nom','$cognom','$email' ,'$poblacio','$hashed_password','ALUMNAT',now(),'$archivo')";
+        
         include  $_SERVER['DOCUMENT_ROOT'].'/php/escriuLogAdmin.php';
 
 
@@ -114,7 +125,11 @@ if ($tipus == "Alumnat") {
         // echo $url;
         header("Location: ../../admin.php?afegir=true&error=professorat");
     } else {
-        $sql = "INSERT INTO professorat (nom,cognom,email,poblacio,contrasenya,rol,data) VALUES ('$nom','$cognom','$email', '$poblacio','$hashed_password','PROFESSOR',now())";
+        
+        $archivo = "imatgedefecte.png";
+
+        $sql = "INSERT INTO professorat (nom,cognom,email,poblacio,contrasenya,rol,data,imatgeperfil) VALUES ('$nom','$cognom','$email', '$poblacio','$hashed_password','PROFESSOR',now(),'$archivo')";
+
         session_start();
         include  $_SERVER['DOCUMENT_ROOT'].'/php/escriuLogAdmin.php';
 
