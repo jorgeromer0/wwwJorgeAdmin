@@ -54,11 +54,11 @@ if (mysqli_connect_errno()) {
                         $imagen = $usuario['imatgeperfil'];
             
                         if ($imagen != "imatgedefecte.png") {
-                            echo "<img src='http://localhost:8080/recursos/img/imatgesperfil/alumnat/$imagen'  width='40'>";
+                            echo "<img src='http://".$_SERVER['SERVER_NAME'].":8080/recursos/img/imatgesperfil/professorat/$imagen'  width='40'>";
                         }
 
                         if ($imagen == "imatgedefecte.png") {
-                            echo "<img src='http://localhost:8080/recursos/img/imatgesperfil/$imagen'  width='40'>";
+                            echo "<img src='http://".$_SERVER['SERVER_NAME'].":8080/recursos/img/imatgesperfil/$imagen'  width='40'>";
                         }
 
                         ?>
@@ -93,11 +93,11 @@ if (mysqli_connect_errno()) {
                         $imagen = $usuario['imatgeperfil'];
 
                         if ($imagen != "imatgedefecte.png") {
-                            echo "<img src='http://localhost:8080/recursos/img/imatgesperfil/alumnat/$imagen'  width='40'>";
+                            echo "<img src='http://".$_SERVER['SERVER_NAME'].":8080/recursos/img/imatgesperfil/alumnat/$imagen'  width='40'>";
                         }
 
                         if ($imagen == "imatgedefecte.png") {
-                            echo "<img src='http://localhost:8080//recursos/img/imatgesperfil/$imagen'  width='40'>";
+                            echo "<img src='http://".$_SERVER['SERVER_NAME'].":8080/recursos/img/imatgesperfil/$imagen'  width='40'>";
                         }
 
                         ?>

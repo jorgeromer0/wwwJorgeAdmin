@@ -1,11 +1,13 @@
-<?php include "./php/partials/cap.partial.php" ?>
+<?php include "./php/partials/cap.partial.php" ;
+session_start();
+?>
 
 
 <body>
 
     <div id="wrapper">
         <header id="cap">
-            <h1>Inici Projecte PHP Jorge</h1>
+            <h1>Inici Projecte PHP Jorge </h1>
         </header>
 
 
@@ -21,7 +23,7 @@
                 <div class="navbar-collapse collapse justify-content-between align-items-center w-100" id="collapsingNavbar2">
                     <ul class="navbar-nav mx-auto text-md-center text-left">
                         <li class="nav-item ">
-                            <a class="nav-link" href="http://<?php echo $_SERVER['SERVER_NAME'] ?>:80">Inici</a>
+                            <a class="nav-link" href="http://<?php echo $_SERVER['SERVER_NAME'] ?>:8080">Inici</a>
                         </li>
 
                         </li>
@@ -53,7 +55,7 @@
                 <div class="navbar-collapse collapse justify-content-between align-items-center w-100" id="collapsingNavbar2">
                     <ul class="navbar-nav mx-auto text-md-center text-left">
                         <li class="nav-item ">
-                            <a class="nav-link" href="http://<?php echo $_SERVER['SERVER_NAME'] ?>:80">Inici</a>
+                            <a class="nav-link" href="http://<?php echo $_SERVER['SERVER_NAME'] ?>:8080">Inici</a>
                         </li>
 
                         </li>

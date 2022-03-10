@@ -53,6 +53,7 @@ if ($count == 1) {
         $_SESSION['loggedin'] = true;
         $_SESSION['usuario'] = $usuari;
         $_SESSION['rol'] = $tipus;
+$_SESSION['img'] = "imatgedefecte.png";
 
         // $host = $_SERVER['HTTP_HOST'];
         // $ruta = rtrim(dirname($_SERVER['PHP_SELF']), '/\\');
